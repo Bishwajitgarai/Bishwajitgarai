@@ -41,11 +41,41 @@ root@bishwajit-server:~# cat /etc/player_info
 > PLAYTIME   : 3.5+ Years of Active Logging
 > ALIGNMENT  : True Neutral (Let the algorithms decide)
 > PRIMARY_OS : Linux / Cloud Computing Core
-> ALT_ACCOUNT: https://github.com/Bishwajit-garai
 ================================================================================
 ```
 
-### 💻 SYSTEM ARCHITECTURE (Bishwajit.py)
+> [!IMPORTANT]
+> **🔗 PROFESSIONAL GITHUB:** [**@Bishwajit-garai (Click to view Professional Profile)**](https://github.com/Bishwajit-garai)
+
+<br>
+
+### 🏗️ BACKEND TOPOLOGY (My Standard GenAI Workflow)
+
+```mermaid
+graph TD
+    A[Client Request] -->|WebSocket/REST| B(FastAPI Gateway)
+    B --> C{Cache Hit?}
+    C -->|Yes| D[Redis In-Memory]
+    C -->|No| E[Async Task Queues]
+    E --> F[(Relational DB : MySQL)]
+    E --> G[LLM Orchestrator<br>GenAI / Agno]
+    G <--> H[(Vector DB / OpenSearch)]
+    G -->|Contextual Synthesis| E
+    D --> B
+    E --> B
+    B -->|Low Latency Output| A
+    
+    style B fill:#005571,stroke:#00ff00,color:#fff,stroke-width:2px
+    style D fill:#DD0031,stroke:#00ff00,color:#fff,stroke-width:2px
+    style G fill:#3670A0,stroke:#00ff00,color:#fff,stroke-width:2px
+    style H fill:#005E4D,stroke:#00ff00,color:#fff,stroke-width:2px
+    style A fill:#0d1117,stroke:#00ff00,color:#fff
+    style C fill:#0d1117,stroke:#00ff00,color:#fff
+    style E fill:#0d1117,stroke:#00ff00,color:#fff
+    style F fill:#0d1117,stroke:#00ff00,color:#fff
+```
+
+### 💻 OPERATING LOGIC (Bishwajit.py)
 
 ```python
 """
