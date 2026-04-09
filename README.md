@@ -1,157 +1,326 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Bishwajit%20Garai&fontSize=70&animation=fadeIn&fontAlignY=38&desc=Python%20Backend%20Developer%20|%20GenAI%20&%20LLM%20Ops%20Specialist&descAlignY=55&descAlign=62" alt="Header" />
-  
-  <p align="center">
-    <a href="mailto:bishwajitgarai2520@gmail.com">
-      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-    </a>
-    <a href="https://linkedin.com/in/">
-      <!-- Replace with your Linkedin username inside the href! -->
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    <a href="https://github.com/Bishwajit-garai">
-      <img src="https://img.shields.io/badge/Professional_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Secondary GitHub" />
-    </a>
-  </p>
-  
-  <h3>Hi there, I'm Bishwajit! 👋</h3>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=00FF00&center=true&vCenter=true&width=800&lines=%3E+Initialize+Backend_Developer;%3E+Loading+GenAI_Protocols...;%3E+Bishwajit_Garai_Online!" alt="Typing SVG" />
 </div>
 
-<p align="center">
-  <em><b>RAG Architect & GenAI Enthusiast | Crafting Scalable Backend Systems & Autonomous AI Agents</b></em>
-</p>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=220&section=header&text=Bishwajit.exe&fontSize=70&fontColor=00ff00&animation=fadeIn&fontAlignY=42&desc=Level%2099%20Backend%20Mage%20|%20GenAI%20Summoner&descAlignY=62&descColor=00ff00" alt="Header" />
+</div>
 
-### 👨‍💻 About Me
-
-Python Backend Developer with 3.5+ years of experience building scalable, production-grade backend systems and GenAI-powered applications. I have a strong background in microservices, async processing, Redis, and cloud-ready deployments.
-
-- 🔭 Currently leading backend and GenAI development for multiple AI products at **Endpoint It Services Pvt Ltd**.
-- 💡 Specialized in **FastAPI, Flask, LLMOps, RAG architectures, Autonomous Agents, AI Chatbots, and Hybrid Search systems**.
-- 🛠️ Building systems using **OpenSearch, Vespa, and Vector DBs** for high-concurrency, low-latency processing.
-- 👨‍💻 Check out my other professional profile: [@Bishwajit-garai](https://github.com/Bishwajit-garai)
-- 📫 Reach me at: **bishwajitgarai2520@gmail.com** | **+91 9547066044**
-- 📍 Location: Kolkata, WB, India
-
----
-
-### 🚀 Technical Skills
-
-<details open>
-<summary><b>🛠️ Backend & Languages</b></summary>
 <br>
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
-![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-02303A?style=for-the-badge&logo=any&logoColor=white)
-</details>
+<div align="center">
+<pre style="color: #00ff00;">
+  ____  _     _                     _ _ _     
+ |  _ \(_)___| |____      ____ _  _(_|_) |_   
+ | |_) | / __| '_ \ \ /\ / / _` |/ / | | __|  
+ |  _ <| \__ \ | | \ V  V / (_| | | \| | |_   
+ |_| \_\_|___/_| |_|\_/\_/ \__,_|  |_/ |\__|  
+                       | |          |__/      
+                       |_|                    
+</pre>
+</div>
 
-<details open>
-<summary><b>🤖 GenAI & LLM Ops</b></summary>
 <br>
 
-`LLMs (Gemini, OpenAI-compatible)` `RAG Pipelines` `Prompt Engineering` `Autonomous Agents` `AI Chatbots` `LLMOps` `Agno`
-</details>
+### 👾 SYSTEM IDENTITY / LORE
 
-<details open>
-<summary><b>🔍 Search & Databases</b></summary>
+```console
+root@bishwajit-server:~# cat /etc/player_info
+================================================================================
+> PLAYER     : Bishwajit Garai
+> CLASS      : Backend Developer & RAG Architect
+> GUILD      : Endpoint It Services Pvt Ltd
+> REGION     : Kolkata, WB, India
+> PLAYTIME   : 3.5+ Years of Active Logging
+> ALIGNMENT  : True Neutral (Let the algorithms decide)
+> PRIMARY_OS : Linux / Cloud Computing Core
+> ALT_ACCOUNT: https://github.com/Bishwajit-garai
+================================================================================
+```
+
+### 💻 SYSTEM ARCHITECTURE (Bishwajit.py)
+
+```python
+"""
+Core operating logic for Bishwajit.exe
+Dependencies: Python 3.10+, FastAPI, OpenSearch, GenAI, RAG
+"""
+from typing import List, Dict
+import asyncio
+
+class BishwajitGarai:
+    def __init__(self):
+        self.designation: str = "Backend & GenAI Developer"
+        self.location: str = "Kolkata, WB, India"
+        self.experience_years: float = 3.5
+        self.energy_level: int = 100
+        self.is_coding: bool = True
+
+    async def build_scalable_api(self) -> str:
+        """
+        Specializes in FastAPI and asynchronous processing to deliver 
+        lightning-fast HTTP APIs and WebSocket pipelines.
+        """
+        await asyncio.sleep(0.1) # Simulating ultra-low latency response
+        return "FastAPI Server Deployed Successfully!"
+
+    def run_rag_pipeline(self, query: str) -> Dict[str, str]:
+        """
+        Retrieval-Augmented Generation mechanism utilizing Vector Databases.
+        """
+        return {
+            "source": "OpenSearch & Vector DBs",
+            "generation": "LLM Insights via Gemini & OpenAI",
+            "status": "Accurate and context-aware"
+        }
+
+    def get_contact_info(self) -> Dict[str, str]:
+        return {
+            "email": "bishwajitgarai2520@gmail.com",
+            "phone": "+91 9547066044",
+            "professional_github": "github.com/Bishwajit-garai"
+        }
+
+# Instantiate System
+developer = BishwajitGarai()
+asyncio.run(developer.build_scalable_api())
+```
+
 <br>
 
-![OpenSearch](https://img.shields.io/badge/OpenSearch-005E4D?style=for-the-badge&logo=OpenSearch&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-`Vespa` `Vector DBs` `Hybrid Search`
-</details>
+### 🎮 SKILL TREE MATRIX
 
-<details open>
-<summary><b>☁️ Infra & DevOps</b></summary>
+<table>
+<tr>
+<td width="50%" valign="top">
+  
+**🗡️ CORE BACKEND (MASTERY RANK)**
 <br>
+*Foundational spells for server architecture.*
+<br><br>
 
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-`CI/CD` `Async Workers` `Web Scraping` `Automation`
-</details>
+- **Python** (Caster Level: Archmage)
+  `[██████████████████] 99%`
+- **FastAPI** (Async Mastery)
+  `[██████████████████] 99%`
+- **Flask / Django** (Traditional Runes)
+  `[████████████░░░░░░] 75%`
+- **REST / GraphQL** (Comms Protocols)
+  `[██████████████░░░░] 85%`
+- **WebSockets** (Realtime Streams)
+  `[████████████░░░░░░] 75%`
 
----
+</td>
+<td width="50%" valign="top">
 
-### 💼 Experience
+**🔮 GEN-AI & LLM SUMMONING**
+<br>
+*Advanced invocation of neural architectures.*
+<br><br>
 
-<table border="0">
-  <tr>
-    <td width="50%">
-      <b>Software Developer</b> <br>
-      <i>Endpoint It Services Pvt Ltd</i> ( मुंबई | Oct 2024 - Present)
-    </td>
-    <td width="50%">
-      <b>Software Developer</b> <br>
-      <i>Adansa Solutions Pvt Ltd</i> ( कोलकाता | Jun 2022 - May 2024)
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <ul>
-        <li>Leading backend & GenAI development for multiple AI products (MeetMemo, Novo Chat, Archaea).</li>
-        <li>Built AI systems for real-time meeting capture, movie recommendations, and code search.</li>
-        <li>Implemented scalable async pipelines using FastAPI, Redis, MySQL, and LLMs for high concurrency.</li>
-      </ul>
-    </td>
-    <td valign="top">
-      <ul>
-        <li>Led the development of Flask-based web applications with robust backend systems.</li>
-        <li>Utilized Pandas and NumPy for efficient ETL processes and smooth data transformation.</li>
-        <li>Optimized system performance and improved data workflows with cross-functional teams.</li>
-      </ul>
-    </td>
-  </tr>
+- **LLMOps & Prompts** (Spellcrafting)
+  `[██████████████████] 99%`
+- **RAG Architecture** (Knowledge Synthesis)
+  `[██████████████████] 99%`
+- **Bots & Auto-Agents** (Constructs)
+  `[██████████████░░░░] 85%`
+- **Gemini / OpenAI** (Deity Pacts)
+  `[██████████████████] 99%`
+- **Agno Framework** (Arcane Libraries)
+  `[████████████░░░░░░] 75%`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**🛡️ DATABASE & CACHE INVENTORY**
+<br>
+*Persistent and ephemeral storage vaults.*
+<br><br>
+
+- **MySQL / SQLite** (Relational Grids)
+  `[██████████████████] 99%`
+- **Redis** (In-Memory Access)
+  `[██████████████░░░░] 85%`
+- **Vector DBs** (High-Dimensional Space)
+  `[██████████████████] 99%`
+- **OpenSearch / Vespa** (Hybrid Search)
+  `[██████████████░░░░] 85%`
+- **Pandas / NumPy** (Data Manipulation)
+  `[████████████░░░░░░] 75%`
+
+</td>
+<td width="50%" valign="top">
+
+**⚙️ DEVOPS & INFRASTRUCTURE RUNES**
+<br>
+*Rituals for maintaining absolute server uptime.*
+<br><br>
+
+- **Docker** (Containerization Magic)
+  `[██████████████░░░░] 85%`
+- **AWS** (Cloud Hosting)
+  `[████████████░░░░░░] 75%`
+- **Nginx** (Traffic Routing)
+  `[████████████░░░░░░] 75%`
+- **Git & CI/CD** (Timeline Versioning)
+  `[██████████████░░░░] 85%`
+- **Async Workers** (Task Delegation)
+  `[██████████████████] 99%`
+
+</td>
+</tr>
 </table>
 
----
+<br>
 
-### 📂 Featured Projects
+### 🏆 QUEST LOG (ACTIVE & COMPLETED CAMPAIGNS)
 
-#### 💬 [MeetMemo](#)
-> **AI-powered meeting assistant with autonomous browser agents**
-- **Tech Stack:** `Python`, `FastAPI`, `Generative AI`, `MySQL`
-- Provides real-time capture, transcription, summarization, sentiment analysis, and actionable insights.
-- Built scalable FastAPI services with async processing to support concurrent meetings seamlessly.
+```diff
++ [CURRENT_QUEST] Software Developer @ Endpoint It Services Pvt Ltd 
++ Region: Mumbai 
++ Timeline: Oct 2024 - Present
+======================================================================
+! Objective: Lead backend & GenAI development for multiple AI products.
+# Achievements unlocked:
+  > Spearheaded development of MeetMemo, Novo Chat, and Archaea.
+  > Built autonomous AI systems for real-time meeting capture.
+  > Integrated movie recommendations and advanced code search engines.
+  > Implemented ultra-high-concurrency async pipelines with FastAPI.
+  > Bridged Redis, MySQL, and LLMs into a seamless processing factory.
+  > Handled edge-cases for extreme low-latency processing requirements.
 
-#### 🍿 [Novo Chat](#)
-> **GenAI-powered movie query & recommendation system**
-- **Tech Stack:** `Python`, `FastAPI`, `MySQL`, `Agno`, `RAG`
-- A conversational system enabling natural-language movie search, tailored recommendations, and contextual Q&A.
-- Underpinned by advanced RAG pipelines and vector embeddings to deliver accurate, context-aware responses.
+- [COMPLETED_QUEST] Software Developer @ Adansa Solutions Pvt Ltd 
+- Region: Kolkata 
+- Timeline: Jun 2022 - May 2024
+======================================================================
+! Objective: Develop robust web applications and ETL data pipelines.
+# Achievements unlocked:
+  > Orchestrated Flask-based backends serving thousands of requests.
+  > Automated raw data transformations using Pandas & NumPy arrays.
+  > Engineered robust ETL processes ensuring smooth data workflows.
+  > Collaborated heavily with cross-functional system architects.
+  > Optimized legacy backend codebases to drastically improve speeds.
+```
 
-#### 🔎 [Archaea](#)
-> **AI Code Search Engine**
-- **Tech Stack:** `Python`, `FastAPI`, `OpenSearch`, `Embeddings`
-- A sophisticated semantic and hybrid code search engine tailored for natural-language queries over large codebases.
-- Combines lexical search, AST-based indexing, AST skeleton matching, and cutting-edge vector queries.
+<br>
 
----
+### 🎒 INVENTORY (FEATURED PROJECTS)
 
-### 📊 GitHub Stats
+<details open>
+  <summary><b>🔎 [Rarity: Mythic] Archaea (AI Code Search Engine)</b></summary>
+  <br>
+  
+  > *An incredibly sophisticated AI Code Search Engine tailored specifically for querying massive, enterprise-level codebases using natural language.*
+  
+  - **Tech Elements:** `Python`, `FastAPI`, `OpenSearch`, `Embeddings`
+  - **Core Mechanics:** Enables natural-language queries to filter through vast amounts of repository data.
+  - **Special Buffs (Features):** 
+    - Lexical search integration mapping alongside semantic search.
+    - Advanced AST-based (Abstract Syntax Tree) indexing.
+    - AST skeleton matching ensuring code structure is evaluated.
+    - Bleeding-edge vector queries for high-dimensional code mapping.
+  - **Impact:** Transforms how developers research and interact with existing legacy and modern code paradigms.
+</details>
+
+<br>
+
+<details open>
+  <summary><b>🍿 [Rarity: Epic] Novo Chat</b></summary>
+  <br>
+  
+  > *A GenAI-powered movie query and recommendation system designed to replace traditional rigid search systems with a natural conversational flow.*
+  
+  - **Tech Elements:** `Python`, `FastAPI`, `MySQL`, `Agno`, `RAG`
+  - **Core Mechanics:** A conversational chatbot matrix relying on massive movie databases.
+  - **Special Buffs (Features):**
+    - Natural-language search capturing user intent and mood.
+    - Heavily tailored recommendations based on unstructured queries.
+    - Underlying mechanisms using powerful Vector embeddings.
+    - Strict, context-aware responses limiting hallucinations.
+  - **Impact:** Delivers cinema insights instantly with highly conversational intelligence.
+</details>
+
+<br>
+
+<details open>
+  <summary><b>💬 [Rarity: Epic] MeetMemo</b></summary>
+  <br>
+  
+  > *An AI-powered meeting assistant relying heavily on autonomous browser agents to track, transcribe, and analyze active web meetings.*
+  
+  - **Tech Elements:** `Python`, `FastAPI`, `Generative AI`, `MySQL`
+  - **Core Mechanics:** Complete meeting lifecycle management via autonomous background workers.
+  - **Special Buffs (Features):**
+    - Accurate, real-time transcription of multi-speaker environments.
+    - Dynamic meeting summarization and key-point extraction.
+    - Sentiment analysis gauging the atmosphere of the room.
+    - Scalable FastAPI services supporting high-concurrency without breaking under load.
+  - **Impact:** Cuts down meeting fatigue by autonomously capturing and analyzing actionable insights.
+</details>
+
+<br>
+
+<details open>
+  <summary><b>📊 [Rarity: Rare] Simplified Excel & Other Utilities</b></summary>
+  <br>
+  
+  > *A collection of versatile backend applications, utilities, scripts, and micro-tools spanning numerous different technical landscapes.*
+  
+  - **Tech Elements:** `Python`, `Flask`, `Pandas`, `NumPy`
+  - **Core Mechanics:** Data transformation pipelines tailored for analytical simplicity.
+  - **Special Buffs (Features):**
+    - Advanced ETL pipelines extracting deep analytics.
+    - Raw data transformation converting massive dumps to readable formats.
+    - Implementation of robust microservices resolving legacy bottlenecks.
+    - Automated cron-based tasks replacing manual interventions.
+  - **Impact:** Streamlines daily operations for countless data entry and structural challenges.
+</details>
+
+<br>
+
+### 📡 RADAR TRACKING (GITHUB ANALYTICS)
+
+<p align="center">
+  <i>"Data is simply the universe speaking to those who know how to listen."</i>
+</p>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Bishwajitgarai&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Bishwajit's GitHub stats" height="192px"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bishwajitgarai&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" height="192px"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Bishwajitgarai&show_icons=true&hide_border=true&bg_color=000000&title_color=00ff00&text_color=00ff00&icon_color=00ff00" alt="GitHub stats" height="192px"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bishwajitgarai&layout=compact&hide_border=true&bg_color=000000&title_color=00ff00&text_color=00ff00" alt="Top Languages" height="192px"/>
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Bishwajitgarai&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Bishwajitgarai&hide_border=true&background=000000&ring=00ff00&fire=00ff00&currStreakNum=00ff00&currStreakLabel=00ff00&sideNums=00ff00&sideLabels=00ff00&dates=00ff00" alt="GitHub Streak" />
+</div>
+
+<br><br>
+
+### 📞 DIRECT COMMLINK ESTABLISHED
+
+```console
+root@bishwajit-server:~# ./establish_handshake.sh --target=RECRUITER
+> Initiating handshake protocols...
+> Loading public keys...
+> Select communication channel:
+```
+
+<div align="center">
+  <br>
+  <code><a href="mailto:bishwajitgarai2520@gmail.com" style="color: #00ff00; text-decoration: none;">[ EMAIL ] ping bishwajitgarai2520@gmail.com</a></code> 
+  <br><br>
+  <code><a href="https://linkedin.com/in/" style="color: #00ff00; text-decoration: none;">[ NETWORK ] ssh bishwajit@linkedin</a></code> 
+  <br><br>
+  <code><a href="https://github.com/Bishwajit-garai" style="color: #00ff00; text-decoration: none;">[ REPOSITORY_CLONE ] cd /alt/github/account</a></code>
+  <br><br>
 </div>
 
 <p align="center">
   <br>
-  <i>Always happy to connect and collaborate on innovative AI & Backend solutions!</i> <br><br>
-  <img src="https://komarev.com/ghpvc/?username=Bishwajitgarai&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
+  <i>Always compiling the next great project. Stay tuned...</i>
+  <br><br>
+  <img src="https://komarev.com/ghpvc/?username=Bishwajitgarai&label=TERMINAL%20HITS&color=00ff00&style=for-the-badge" alt="Profile views" />
 </p>
