@@ -19,12 +19,21 @@
     <img src="https://img.shields.io/badge/Email-bishwajitgarai2520%40gmail.com-000000?style=for-the-badge&logo=gmail&logoColor=00ff00&labelColor=000000&color=000000" alt="Email" />
   </a>
   <img src="https://img.shields.io/badge/Location-Mumbai,_India-000000?style=for-the-badge&logo=googlemaps&logoColor=00ff00&labelColor=000000&color=000000" alt="Location" />
-  <a href="https://linkedin.com/in/">
+  <a href="https://www.linkedin.com/in/bishwajitgarai/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-000000?style=for-the-badge&logo=linkedin&logoColor=00ff00&labelColor=000000&color=000000" alt="LinkedIn" />
   </a>
   <a href="https://github.com/Bishwajit-garai">
     <img src="https://img.shields.io/badge/Alt_Account-Bishwajit--garai-000000?style=for-the-badge&logo=github&logoColor=00ff00&labelColor=000000&color=000000" alt="Alt Github" />
   </a>
+</div>
+
+<br>
+
+<div align="center">
+  <h2>Hi 👋, I'm Bishwajit Garai!</h2>
+  <p><i>A versatile <b>Backend Engineer & AI Systems Architect</b> from India.<br>
+  I architect next-generation infrastructure, high-concurrency robust backend APIs, and autonomous GenAI agentic pipelines.<br>
+  Thank you for taking the time to explore my digital workspace! 😄🚀</i></p>
 </div>
 
 <br>
@@ -53,26 +62,61 @@ root@bishwajit-server:~# cat /etc/player_info
 
 ```mermaid
 graph TD
-    A[Client Request] -->|WebSocket/REST| B(FastAPI Gateway)
-    B --> C{Cache Hit?}
-    C -->|Yes| D[Redis In-Memory]
-    C -->|No| E[Async Task Queues]
-    E --> F[(Relational DB : MySQL)]
-    E --> G[LLM Orchestrator<br>GenAI / Agno]
-    G <--> H[(Vector DB / OpenSearch)]
-    G -->|Contextual Synthesis| E
-    D --> B
-    E --> B
-    B -->|Low Latency Output| A
-    
-    style B fill:#005571,stroke:#00ff00,color:#fff,stroke-width:2px
-    style D fill:#DD0031,stroke:#00ff00,color:#fff,stroke-width:2px
-    style G fill:#3670A0,stroke:#00ff00,color:#fff,stroke-width:2px
-    style H fill:#005E4D,stroke:#00ff00,color:#fff,stroke-width:2px
-    style A fill:#0d1117,stroke:#00ff00,color:#fff
-    style C fill:#0d1117,stroke:#00ff00,color:#fff
-    style E fill:#0d1117,stroke:#00ff00,color:#fff
-    style F fill:#0d1117,stroke:#00ff00,color:#fff
+    %% Modern Microservices Architecture Design
+    subgraph Frontend [Client Applications]
+        A1("📱 Mobile App <br> (React Native)"):::client
+        A2("🖥️ Web Portal <br> (React/Next.js)"):::client
+    end
+
+    subgraph API_Gateway [Traffic Control & Auth]
+        B("🛡️ NGINX Router"):::gateway --> C("⚙️ FastAPI Gateway"):::gateway
+    end
+
+    Frontend -->|HTTPS / WSS| API_Gateway
+
+    %% Complex Async & GenAI workflow
+    subgraph Core_Services [Async Processing & Agents]
+        C -->|REST| D("🛠️ Central Orchestrator <br> (Python)"):::core
+        
+        %% Real-time / Caching
+        D <-->|gRPC / PubSub| E[("⚡ Redis Cache Cluster")]:::db
+        D <-->|Async| F("⏳ Celery / RabbitMQ Workers"):::worker
+        
+        %% Database Cluster
+        F --> G[("🛢️ PostgreSQL / MySQL")]:::db
+        D --> G
+    end
+
+    subgraph GenAI_Engine [LLM Operations & RAG Multi-Agent]
+        F -->|Prompt Context| H{"🧠 Agno AI Teams"}:::ai
+        
+        %% Multi-Agent simulation
+        H --> I("🕵️ Code Analysis Agent"):::agent
+        H --> J("📊 Sentiment & Summarization Agent"):::agent
+        H --> K("🎬 Recommender Agent"):::agent
+        
+        %% Model Invocations
+        I & J & K --> L{"🚀 LLM Interface <br> (Gemini / OpenAI)"}:::model
+        
+        %% Knowledge DBs
+        L <-->|RAG Retrieval| M[("🔍 OpenSearch / Vespa <br> Hybrid Search")]:::vdb
+        L <-->|Vector Embedding| N[("📐 Vector Database <br> (Pinecone/Milvus)")]:::vdb
+        
+        M & N --> H
+    end
+
+    Core_Services <-->|Webhook / Polling| GenAI_Engine
+
+    %% Defining Styles for Crazy Aesthetics
+    classDef client fill:#0d1117,stroke:#00ff00,stroke-width:2px,color:#fff;
+    classDef gateway fill:#005571,stroke:#00ff00,stroke-width:2px,color:#fff;
+    classDef core fill:#3670A0,stroke:#00ff00,stroke-width:2px,color:#fff;
+    classDef worker fill:#8D6E63,stroke:#00ff00,stroke-width:2px,color:#fff;
+    classDef db fill:#DD0031,stroke:#00ff00,stroke-width:3px,color:#fff;
+    classDef ai fill:#6A1B9A,stroke:#00ff00,stroke-width:3px,color:#fff;
+    classDef agent fill:#4A148C,stroke:#FF00FF,stroke-width:2px,color:#fff;
+    classDef model fill:#000000,stroke:#FF00FF,stroke-width:4px,color:#00FF00;
+    classDef vdb fill:#005E4D,stroke:#00FFFF,stroke-width:3px,color:#fff;
 ```
 
 ### 💻 OPERATING LOGIC (Bishwajit.py)
@@ -349,7 +393,7 @@ root@bishwajit-server:~# ./establish_handshake.sh --target=RECRUITER
   <br>
   <code><a href="mailto:bishwajitgarai2520@gmail.com" style="color: #00ff00; text-decoration: none;">[ EMAIL ] ping bishwajitgarai2520@gmail.com</a></code> 
   <br><br>
-  <code><a href="https://linkedin.com/in/" style="color: #00ff00; text-decoration: none;">[ NETWORK ] ssh bishwajit@linkedin</a></code> 
+  <code><a href="https://www.linkedin.com/in/bishwajitgarai/" style="color: #00ff00; text-decoration: none;">[ NETWORK ] ssh bishwajit@linkedin</a></code> 
   <br><br>
   <code><a href="https://github.com/Bishwajit-garai" style="color: #00ff00; text-decoration: none;">[ REPOSITORY_CLONE ] cd /alt/github/account</a></code>
   <br><br>
