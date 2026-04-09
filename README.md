@@ -1,23 +1,17 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=00FF00&center=true&vCenter=true&width=800&lines=%3E+Initialize+Backend_Developer;%3E+Loading+GenAI_Protocols...;%3E+Bishwajit_Garai_Online!" alt="Typing SVG" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=220&section=header&text=Bishwajit%20Garai&fontSize=70&fontColor=00ff00&animation=fadeIn&fontAlignY=38&desc=Level%2099%20Backend%20Mage%20|%20GenAI%20Summoner&descAlignY=62&descColor=00ff00" alt="Header" />
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=220&section=header&text=Bishwajit.exe&fontSize=70&fontColor=00ff00&animation=fadeIn&fontAlignY=42&desc=Level%2099%20Backend%20Mage%20|%20GenAI%20Summoner&descAlignY=62&descColor=00ff00" alt="Header" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00FF00&center=true&vCenter=true&width=800&lines=%3E+Initialize+Backend_Developer;%3E+Loading+GenAI_Protocols...;%3E+Bishwajit_Garai_Online!" alt="Typing SVG" />
 </div>
 
 <br>
 
 <div align="center">
-<pre style="color: #00ff00;">
-  ____  _     _                     _ _ _     
- |  _ \(_)___| |____      ____ _  _(_|_) |_   
- | |_) | / __| '_ \ \ /\ / / _` |/ / | | __|  
- |  _ <| \__ \ | | \ V  V / (_| | | \| | |_   
- |_| \_\_|___/_| |_|\_/\_/ \__,_|  |_/ |\__|  
-                       | |          |__/      
-                       |_|                    
-</pre>
+  <a href="mailto:bishwajitgarai2520@gmail.com">
+    <img src="https://img.shields.io/badge/%F0%9F%9A%80_Open_for_Roles-Searching_for_a_Backend_Developer%3F_Let's_Connect!-00ff00?style=for-the-badge&labelColor=000000" alt="Open for Roles" />
+  </a>
 </div>
 
 <br>
